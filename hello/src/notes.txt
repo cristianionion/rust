@@ -1,0 +1,12 @@
+cargo clippy, check for warnings
+
+cargo fmt --check will show what changes need to be done to follow rust fmt
+cargo fmt wihtout --check will make those changes
+
+cargo test runs unit tests like:
+    // run w cargo test
+    #[test]
+    fn test_fib(){
+        assert_eq!(fib(15),1364);
+    }
+
